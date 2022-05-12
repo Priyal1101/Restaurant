@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Home</title>
+<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+   <header class="page-header">
+        <nav>
+          <a href="#0" aria-label="forecastr logo" class="logo">
+            <img src="/assets/bbq.png" alt="" style="height: 80px;">
+          </a>
+          <button class="toggle-mob-menu" aria-expanded="false" aria-label="open menu">
+            <svg width="20" height="20" aria-hidden="true">
+              <use xlink:href="#down"></use>
+            </svg>
+          </button>
+          <ul class="admin-menu">
+            <li class="menu-heading">
+              <h3>Control Panel</h3>
+            </li>
+            <li>
+              <a href="#0">
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="staff2 (2).html">
+                <span>Billing</span>
+              </a>
+            </li>
+            <li>
+              <a href="staff_users.php">
+                <span>Users</span>
+              </a>
+            </li>
+           <li>
+            <li>
+              <a href="staff_inventory.php">
+                <span>Inventory</span>
+              </a>
+            </li>
+            <li class="menu-heading">
+              <h3>Logout</h3>
+            </li>
+            <li>
+              <a href="practise.php">
+                <span id="logout">Logout</span>
+                <script>
+                  function preventBack(){window.history.forward();}
+                  setTimeout("preventBack()", 0);
+                  window.onunload=function(){null};
+                </script>
+              </a>
+            </li>
+            <br>
+           
+          </ul>
+        </nav>
+      </header>
+      <section class="page-content">
+        <section class="search-and-user">
+          <div class="admin-profile">
+            <span class="greeting" style="font-weight: bold; font-style: italic; font-size:x-large;">Hello admin,</span>
+          </div>
+        </section>
+        <section class="grid">
+          <h1>Orders</h1>
+          <br>
+           <article></article>
+           <br>
+           <h1>Tables</h1>
+          <article></article>
+        </section>
+        
+      </section>
+</body>
+</html>
